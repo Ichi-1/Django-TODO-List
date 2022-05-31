@@ -14,7 +14,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', cast=bool)
 
-ALLOWED_HOSTS = ['fast-ocean-38849.herokuapp.com']
+ALLOWED_HOSTS = ['fast-ocean-38849.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
