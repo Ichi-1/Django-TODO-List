@@ -10,7 +10,7 @@
 ### Class-based-view (CBS)
 Its simply Django View written in OOP-style, its take request and return response as usually. 
 As example, instead of @login_required CBV using LoginRequiredMixin. 
-CRUD requests support by particular CBS: CreateView, DeleteView, UpdateView
+CRUD requests support by particular class-based-view: CreateView, DeleteView, UpdateView
 
 
 Example straight from django docs. Code to handle HTTP GET in a view function would look something like:
